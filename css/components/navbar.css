@@ -7,7 +7,6 @@
   display: flex;
   align-items: center;
   background: #FFFFFF;
-  -webkit-transform: translateZ(0);
 }
 
 .nav-flex {
