@@ -86,6 +86,10 @@
   }
   .nav-link {
     padding: 20px 100px;
+    border-bottom: 1px solid #7c7c7c;
+  }
+  .no-border {
+    border-bottom: 0;
   }
   .burger {
     display: block;
