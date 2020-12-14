@@ -1,0 +1,42 @@
+.navbar {
+  position: fixed;
+  width: 100%;
+  height: 80px;
+  z-index: 1000;
+  box-shadow: 0 3px 5px #F1F6F8;
+  display: flex;
+  align-items: center;
+  background: #FFFFFF;
+  -webkit-transform: translateZ(0);
+}
+
+.nav-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-name {
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+
+.nav-name a:link, .nav-name a:visited, .nav-name a:hover, .nav-name a:active, .nav-name a:focus {
+  color: #78A8BD;
+}
+
+.nav-links a:link, .nav-links a:visited, .nav-links a:hover, .nav-links a:active, .nav-links a:focus {
+  color: #020202;
+  font-size: 16px;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+}
+
+.nav-link {
+  padding: 10px;
+  margin: 0 10px 0 10px;
+}
