@@ -10,6 +10,12 @@
 @import url("components/navbar.css");
 
 /* General styles */
+.pure-g, .pure-g [class*=pure-u] {
+    /* Set your content font stack here: */
+    font-family: inherit !important;
+    letter-spacing: inherit !important;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -28,7 +34,7 @@ body {
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 50px !important;
   color: #78a8bd;
   font-weight: 700;
 }
@@ -45,6 +51,7 @@ h3 {
 p {
   font-size: 18px;
   font-weight: 300;
+  line-height: 40px;
 }
 
 ::selection {
@@ -70,5 +77,43 @@ a {
   height: 95vh;
   display: flex;
   align-items: center;
-  padding-top: 100px;
+  padding: 50px 0px 100px 0px;
+}
+
+.pic-container {
+  margin-right: 50px;
+}
+
+.profile-pic {
+  width: auto;
+  max-width: 100%;
+  border-radius: 15px;
+}
+
+.landing-text p {
+  font-size: 22px;
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+
+.landing-paragraph p {
+  font-size: 20px;
+}
+
+.edhec {
+  color: #9F1A30;
+}
+
+.audibene {
+  color: #265DA5;
+}
+
+.wagon {
+  color: #FD1015;
+}
+
+@media screen and (max-width: 600px) {
+  .img-hide {
+    display: none !important;
+  }
 }
