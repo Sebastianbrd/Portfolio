@@ -77,7 +77,11 @@ a {
   height: 95vh;
   display: flex;
   align-items: center;
-  padding: 50px 0px 100px 0px;
+  padding: 50px 0px 0px 0px;
+}
+
+.main-content {
+  padding-bottom: 100px;
 }
 
 .pic-container {
@@ -112,6 +116,9 @@ a {
   color: #FD1015;
 }
 
+.scroll-buttons {
+  text-align: center;
+}
 @media screen and (max-width: 768px) {
   #landing {
     padding: 120px 0px 100px 0px;
