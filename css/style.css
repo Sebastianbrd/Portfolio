@@ -142,6 +142,7 @@ a {
   font-weight: 400;
   display: inline-block;
   position: relative;
+  padding-bottom: 2px;
 }
 
 .btn-secondary::after {
