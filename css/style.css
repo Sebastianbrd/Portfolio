@@ -10,6 +10,12 @@
 @import url("components/navbar.css");
 
 /* General styles */
+.pure-g, .pure-g [class*=pure-u] {
+    /* Set your content font stack here: */
+    font-family: inherit !important;
+    letter-spacing: inherit !important;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -28,7 +34,7 @@ body {
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 50px !important;
   color: #78a8bd;
   font-weight: 700;
 }
@@ -45,6 +51,7 @@ h3 {
 p {
   font-size: 18px;
   font-weight: 300;
+  line-height: 40px;
 }
 
 ::selection {
@@ -70,5 +77,115 @@ a {
   height: 95vh;
   display: flex;
   align-items: center;
-  padding-top: 100px;
+  padding: 50px 0px 0px 0px;
+}
+
+.main-content {
+  padding-bottom: 100px;
+}
+
+.pic-container {
+  margin-right: 50px;
+}
+
+.profile-pic {
+  width: auto;
+  max-width: 100%;
+  border-radius: 20px;
+}
+
+.landing-text p {
+  font-size: 22px;
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+
+.landing-paragraph p {
+  font-size: 20px;
+}
+
+.edhec {
+  color: #9F1A30;
+}
+
+.audibene {
+  color: #265DA5;
+}
+
+.wagon {
+  color: #FD1015;
+}
+
+.scroll-buttons {
+  text-align: center;
+}
+
+.btn-main {
+  background-color: #78A8BD;
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+  padding: 15px 30px;
+  border-radius: 20px;
+}
+
+.btn-main:hover {
+  background-color: #5e889a;
+}
+
+.btn-secondary {
+  margin-left: 30px;
+  text-decoration: none;
+  color: #7c7c7c;
+  font-size: 18px;
+  font-weight: 400;
+  display: inline-block;
+  position: relative;
+}
+
+.btn-secondary::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #7c7c7c;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+.btn-secondary:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+@media screen and (max-width: 800px) {
+  #landing {
+    padding: 120px 0px 100px 0px;
+  }
+
+  .mob-hide {
+    display: none !important;
+  }
+  .main-content {
+    padding-bottom: 30px;
+  }
+
+  h1 {
+    font-size: 30px !important;
+  }
+  
+  .landing-text p {
+    font-size: 18px;
+    margin-bottom: 0;
+    font-weight: 400;
+  }
+  
+  .landing-paragraph p {
+    font-size: 16px;
+  }
+  .btn-main:hover {
+    background-color: #78A8BD;
+  }
 }
