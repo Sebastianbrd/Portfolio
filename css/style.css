@@ -165,8 +165,11 @@ a {
     padding: 120px 0px 100px 0px;
   }
 
-  .img-hide {
+  .mob-hide {
     display: none !important;
+  }
+  .main-content {
+    padding-bottom: 30px;
   }
 
   h1 {
