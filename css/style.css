@@ -114,7 +114,8 @@ a {
 
 @media screen and (max-width: 800px) {
   #landing {
-    padding: 120px 0px 100px 0px;
+    padding: 80px 0px 100px 0px;
+    height: auto;
   }
 
   .mob-hide {
