@@ -21,13 +21,17 @@
   letter-spacing: 5px;
 }
 
-.nav-name a:link, .nav-name a:visited, .nav-name a:hover, .nav-name a:active, .nav-name a:focus {
+.nav-name a:link, .nav-name a:visited, .nav-name a:active, .nav-name a:focus {
   color: #78A8BD;
+}
+
+.nav-name a:hover {
+  color: #5e889a;
 }
 
 .nav-links a:link, .nav-links a:visited, .nav-links a:hover, .nav-links a:active, .nav-links a:focus {
   color: #020202;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .nav-links {
@@ -38,6 +42,25 @@
 .nav-link {
   padding: 10px;
   margin: 0 10px 0 10px;
+  display: inline-block;
+  position: relative;
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #020202;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+.nav-link:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
 
 .nav-sections .icon {
@@ -77,6 +100,9 @@
 @media screen and (max-width: 800px) {
   .nav-links {
     width: 60%;
+  }
+  .nav-name a:hover {
+    color: #78A8BD;
   }
 }
 
