@@ -8,6 +8,7 @@
 @import url("components/button.css");
 @import url("components/cards.css");
 @import url("components/navbar.css");
+@import url("components/links.css");
 
 /* General styles */
 
@@ -105,61 +106,10 @@ a {
   font-size: 20px;
 }
 
-.edhec {
-  color: #9F1A30;
-}
 
-.audibene {
-  color: #265DA5;
-}
-
-.wagon {
-  color: #FD1015;
-}
 
 .scroll-buttons {
   text-align: center;
-}
-
-.btn-main {
-  background-color: #78A8BD;
-  color: white;
-  font-weight: 700;
-  font-size: 20px;
-  padding: 15px 30px;
-  border-radius: 20px;
-}
-
-.btn-main:hover {
-  background-color: #5e889a;
-}
-
-.btn-secondary {
-  margin-left: 30px;
-  text-decoration: none;
-  color: #7c7c7c;
-  font-size: 18px;
-  font-weight: 400;
-  display: inline-block;
-  position: relative;
-  padding-bottom: 2px;
-}
-
-.btn-secondary::after {
-  content: '';
-  position: absolute;
-  width: 100%;
-  transform: scaleX(0);
-  height: 2px;
-  bottom: 0;
-  left: 0;
-  background-color: #7c7c7c;
-  transform-origin: bottom right;
-  transition: transform 0.25s ease-out;
-}
-.btn-secondary:hover::after {
-  transform: scaleX(1);
-  transform-origin: bottom left;
 }
 
 @media screen and (max-width: 800px) {

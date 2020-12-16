@@ -1,0 +1,152 @@
+.nav-name a:link, .nav-name a:visited, .nav-name a:active, .nav-name a:focus {
+  color: #78A8BD;
+}
+
+.nav-name a:hover {
+  color: #5e889a;
+}
+
+.nav-links a:link, .nav-links a:visited, .nav-links a:hover, .nav-links a:active, .nav-links a:focus {
+  color: #020202;
+  font-size: 18px;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+}
+
+.nav-link {
+  padding: 10px;
+  margin: 0 10px 0 10px;
+  display: inline-block;
+  position: relative;
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #020202;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+.nav-link:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.btn-main {
+  background-color: #78A8BD;
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+  padding: 15px 30px;
+  border-radius: 20px;
+}
+
+.btn-main:hover {
+  background-color: #5e889a;
+}
+
+.btn-secondary {
+  margin-left: 30px;
+  text-decoration: none;
+  color: #7c7c7c;
+  font-size: 18px;
+  font-weight: 400;
+  display: inline-block;
+  position: relative;
+  padding-bottom: 2px;
+}
+
+.btn-secondary::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #7c7c7c;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+.btn-secondary:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.edhec {
+  color: #9F1A30;
+  display: inline-block;
+  position: relative;
+}
+
+.edhec::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #9F1A30;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+.edhec:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.audibene {
+  color: #265DA5;
+  display: inline-block;
+  position: relative;
+}
+
+.audibene::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #265DA5;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.audibene:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.wagon {
+  color: #FD1015;
+  display: inline-block;
+  position: relative;
+}
+
+.wagon::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #FD1015;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+.wagon:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
