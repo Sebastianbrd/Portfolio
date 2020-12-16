@@ -10,6 +10,7 @@
 @import url("components/navbar.css");
 
 /* General styles */
+
 .pure-g, .pure-g [class*=pure-u] {
     /* Set your content font stack here: */
     font-family: inherit !important;
