@@ -1,6 +1,6 @@
 .projects-card {
   position: relative;
-  margin-top: 120px;
+  margin: 120px 0 180px 0;
 }
 
 .projects-card-content {
@@ -35,8 +35,21 @@
   transform: scale(1.08);
 }
 
+.content-ipad {
+  padding: 80px 60px 50px 440px;
+}
+
+.img-ipad {
+  top: -11%;
+  left: 5%;
+}
+
 .iphone-frame {
   width: 250px;
+}
+
+.ipad-frame {
+  width: 348px;
 }
 
 .overlay-sportify {
@@ -56,6 +69,26 @@
 }
 
 .overlay-sportify:hover {
+  opacity: 0;
+}
+
+.overlay-rent {
+  position: absolute;
+  width: 306px;
+  height: 409px;
+  line-height: 409px;
+  left: 20px;
+  top: 45px;
+  background: linear-gradient(180deg, #78A8BD 0%, rgba(229, 177, 129, 0.9) 100%);
+  text-align: center;
+  color: white;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 40px;
+  transition: .5s;
+  z-index: 5;
+}
+
+.overlay-rent:hover {
   opacity: 0;
 }
 
