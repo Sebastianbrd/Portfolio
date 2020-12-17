@@ -1,5 +1,6 @@
 /* Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400;500;700&family=Merriweather:wght@300;400;700&family=Pacifico&family=Work+Sans&display=swap');
 
 /* Fontawesome */
 @import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
@@ -36,6 +37,7 @@ body {
 }
 
 h1, h2 {
+  font-family: 'Merriweather Sans', sans-serif;
   font-size: 50px !important;
   color: #78a8bd;
   font-weight: 700;
@@ -43,14 +45,21 @@ h1, h2 {
 }
 
 h3 {
+  font-family: 'Merriweather Sans', sans-serif;
   font-size: 22px;
-  font-weight: 300;
+  color: #78a8bd;
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: 400;
 }
 
 p {
   font-size: 18px;
   font-weight: 300;
-  line-height: 40px;
+  line-height: 25px;
 }
 
 ::selection {
@@ -110,10 +119,12 @@ section {
   font-size: 22px;
   margin-bottom: 20px;
   font-weight: 400;
+  line-height: 40px;
 }
 
 .landing-paragraph p {
   font-size: 20px;
+  line-height: 40px;
 }
 
 
@@ -149,10 +160,12 @@ section {
     font-size: 18px;
     margin-bottom: 0;
     font-weight: 400;
+    line-height: 35px;
   }
   
   .landing-paragraph p {
     font-size: 16px;
+    line-height: 35px;
   }
   .btn-main:hover {
     background-color: #78A8BD;

@@ -1,0 +1,78 @@
+.projects-card {
+  position: relative;
+  margin-top: 120px;
+}
+
+.projects-card-content {
+  padding: 80px 340px 50px 60px;
+  width: 100%;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.projects-card-description {
+  margin-bottom: 60px;
+}
+
+.card-title {
+  margin-bottom: 40px;
+}
+
+.card-subtitle {
+  margin-bottom: 10px;
+}
+
+.projects-card-img {
+  position: absolute;
+  top: -17%;
+  left: 70%;
+  z-index: 4;
+  transition: .5s;
+}
+
+.projects-card-img:hover {
+  transform: scale(1.08);
+}
+
+.iphone-frame {
+  width: 250px;
+}
+
+.overlay-sportify {
+  position: absolute;
+  width: 215px;
+  height: 383px;
+  line-height: 383px;
+  left: 18px;
+  top: 65px;
+  background: linear-gradient(180deg, #78A8BD 0%, rgba(219, 84, 97, 0.79) 100%);
+  text-align: center;
+  color: white;
+  font-family: 'Pacifico', cursive;
+  font-size: 50px;
+  transition: .5s;
+  z-index: 5;
+}
+
+.overlay-sportify:hover {
+  opacity: 0;
+}
+
+.overlay-audibene {
+  position: absolute;
+  width: 215px;
+  height: 383px;
+  line-height: 383px;
+  left: 18px;
+  top: 65px;
+  background: linear-gradient(180deg, #78A8BD 0%, rgba(111, 194, 97, 0.9) 100%);
+  text-align: center;
+  font-size: 50px;
+  transition: .5s;
+  z-index: 5;
+}
+
+.overlay-audibene:hover {
+  opacity: 0;
+}
