@@ -150,3 +150,20 @@
   transform: scaleX(1);
   transform-origin: bottom left;
 }
+
+.btn-blue {
+  padding: 10px 25px;
+  border-radius: 10px;
+  font-size: 18px;
+  color: white;
+  background-color: #78A8BD;
+}
+
+.btn-black {
+  padding: 10px 25px;
+  border-radius: 10px;
+  font-size: 18px;
+  color: white;
+  background-color: #020202;
+  margin-left: 20px;
+}
