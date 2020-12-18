@@ -159,6 +159,10 @@
   background-color: #78A8BD;
 }
 
+.btn-blue:hover {
+  background-color: #5e889a;
+}
+
 .btn-black {
   padding: 10px 25px;
   border-radius: 10px;
@@ -167,3 +171,8 @@
   background-color: #020202;
   margin-left: 20px;
 }
+
+.btn-black:hover {
+  background-color: #020202de;
+}
+
