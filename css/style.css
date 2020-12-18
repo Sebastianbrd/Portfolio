@@ -133,12 +133,46 @@ section {
 }
 
 /* Skills */
+.skills-content {
+  margin-top: 72px;
+}
+
 .skill-content {
   margin-bottom: 32px;
 }
 
 .skill-subtitle {
   margin-bottom: 16px;
+}
+
+/* Contact */
+.contact-subtitle {
+  text-align: center;
+  color: #020202;
+  font-weight: 400;
+  margin: 78px 0 32px 0;
+}
+
+.contact-icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.contact-content {
+  text-align: center;
+}
+
+.contact-content a {
+  color: #020202;
+}
+
+.contact-content a:hover {
+  color: #5e889a;
+}
+
+.contact-icon {
+  font-size: 50px;
 }
 
 /* Mobile/Tablet landing */
