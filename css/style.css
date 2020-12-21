@@ -234,4 +234,12 @@ section {
   .section-headline {
     margin-top: -4.5rem;
   }
+
+  .skills-content {
+    margin-top: 40px;
+  }
+
+  .contact-subtitle {
+    margin: 40px 0 32px 0;
+  }
 }
