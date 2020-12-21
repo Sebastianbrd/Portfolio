@@ -166,13 +166,16 @@ section {
 .contact-content a {
   color: #020202;
 }
+.contact-content p {
+  font-size: 16px;
+}
 
 .contact-content a:hover {
   color: #5e889a;
 }
 
 .contact-icon {
-  font-size: 50px;
+  font-size: 40px;
 }
  /* Desktop specific */
  @media screen and (min-width: 800px) {

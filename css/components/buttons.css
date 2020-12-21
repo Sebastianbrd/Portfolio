@@ -194,4 +194,9 @@
   .btn-main {
     font-size: 18px;
   }
+
+  .btn-skill {
+    font-size: 16px;
+    padding: 10px 20px;
+  }
 }
