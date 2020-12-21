@@ -59,7 +59,7 @@
   line-height: 383px;
   left: 18px;
   top: 65px;
-  background: linear-gradient(180deg, #78A8BD 0%, rgba(219, 84, 97, 0.79) 100%);
+  background: linear-gradient(180deg, #78a8bde8 0%, rgba(219, 84, 97, 0.79) 100%);
   text-align: center;
   color: white;
   font-family: 'Pacifico', cursive;
@@ -79,7 +79,7 @@
   line-height: 409px;
   left: 20px;
   top: 45px;
-  background: linear-gradient(180deg, #78A8BD 0%, rgba(229, 177, 129, 0.9) 100%);
+  background: linear-gradient(180deg, #78a8bde8 0%, rgba(229, 177, 129, 0.9) 100%);
   text-align: center;
   color: white;
   font-family: 'Work Sans', sans-serif;
@@ -103,7 +103,7 @@
   line-height: 405px;
   left: 19px;
   top: 69px;
-  background: linear-gradient(180deg, #78A8BD 0%, rgba(111, 194, 97, 0.9) 100%);
+  background: linear-gradient(180deg, #78a8bde8 0%, rgba(111, 194, 97, 0.9) 100%);
   text-align: center;
   font-size: 50px;
   transition: .5s;
@@ -112,4 +112,77 @@
 
 .overlay-audibene:hover {
   opacity: 0;
+}
+
+@media screen and (max-width: 800px) {
+  .projects-card {
+    margin: 80px 0 80px 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .projects-card-content {
+    padding: 1.5rem;
+    order: 2;
+    margin-top: -40px;
+    z-index: 5;
+  }
+  .projects-card-img {
+    order: 1;
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .projects-card-description {
+    margin-bottom: 30px;
+  }
+  .frame-mobile {
+    width: 100%;
+    height: 40vh;
+    border-radius: 20px;
+  }
+  .card-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .overlay-sportify {
+    width: 100%;
+    height: 40vh;
+    top: 0px;
+    left: 0;
+    border-radius: 20px;
+    line-height: 40vh;
+    background: linear-gradient(180deg, #78a8bdd9 30%, rgba(219, 84, 97, 0.69) 100%);
+  }
+  .overlay-sportify:hover {
+    opacity: 1;
+  }
+  
+  .overlay-rent {
+    width: 100%;
+    height: 40vh;
+    top: 0px;
+    left: 0;
+    border-radius: 20px;
+    line-height: 40vh;
+  }
+  .overlay-rent:hover {
+    opacity: 1;
+  }
+
+  .overlay-audibene {
+    width: 100%;
+    height: 40vh;
+    top: 0px;
+    left: 0;
+    border-radius: 20px;
+    line-height: 50vh;
+  }
+  .overlay-audibene:hover {
+    opacity: 1;
+  }
+  .audibene-logo {
+    width: 80%;
+  }
 }
