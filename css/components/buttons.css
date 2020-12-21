@@ -189,3 +189,9 @@
   margin: 8px;
   cursor: default;
 }
+
+@media screen and (max-width: 800px) {
+  .btn-main {
+    font-size: 18px;
+  }
+}

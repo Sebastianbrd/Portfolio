@@ -71,7 +71,7 @@ a {
 }
 
 section {
-  padding: 3.11111rem 0 5.33333rem;;
+  padding: 3.11111rem 0 5.33333rem;
 }
 
 /* Body */
@@ -183,6 +183,26 @@ section {
 /* Mobile/Tablet landing */
 
 @media screen and (max-width: 800px) {
+  
+  h1, h2 {
+    font-size: 30px !important;
+    letter-spacing: -0.5px;
+  }
+  
+  h3 {
+    font-size: 20px !important;
+  }
+  
+  h4 {
+    font-size: 18px !important;
+  }
+  
+  p {
+    font-size: 16px !important;
+  }
+  section {
+    padding: 3.11111rem 0;
+  }
   #landing {
     padding: 80px 0px 100px 0px;
     height: auto;
@@ -194,24 +214,6 @@ section {
   .main-content {
     padding-bottom: 30px;
   }
-
-  h1, h2 {
-    font-size: 30px !important;
-    letter-spacing: -0.5px;
-  }
-
-  h3 {
-    font-size: 20px !important;
-  }
-
-  h4 {
-    font-size: 18px !important;
-  }
-
-  p {
-    font-size: 16px !important;
-  }
-  
   .landing-text p {
     font-size: 18px;
     margin-bottom: 0;
